@@ -33,9 +33,9 @@ const Navbar = () => {
             <ToastContainer />
             <div className="container">
             { ! (user?.role===Role.ADMIN) ?
-                <NavLink className="navbar-brand fw-bold fs-4 px-2" to="/product"> UrbanKart</NavLink>
+                <NavLink className="navbar-brand fw-bold fs-4 px-2" to="/product"> Shopping Cart</NavLink>
                 :
-                <NavLink className="navbar-brand fw-bold fs-4 px-2" to="/updateproduct"> UrbanKart</NavLink> 
+                <NavLink className="navbar-brand fw-bold fs-4 px-2" to="/updateproduct"> Shopping Cart</NavLink> 
             }
                 {}
                 <button className="navbar-toggler mx-2" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -46,7 +46,7 @@ const Navbar = () => {
                     <ul className="navbar-nav m-auto my-2 text-center">
 
                     { 
-                          ! (user?.role===Role.ADMIN) ?
+                            ! (user?.role===Role.ADMIN) ?
                                 <>
                                 <li className="nav-item">
                                      <NavLink className="nav-link" to="/">Home </NavLink>
@@ -90,8 +90,6 @@ const Navbar = () => {
                                 <NavLink to="/addproduct" className="btn btn-outline-light m-2"><i className="fa fa-solid fa-plus"></i> Add Product</NavLink>
                                  <NavLink to="/placedorders" className="btn btn-outline-light m-2"><i class="fa-solid fa-pen-to-square"></i> All Orders Details</NavLink> 
                                </span>
-
-
                                 :
                                 <>
 
@@ -122,11 +120,8 @@ const Navbar = () => {
                         {user && (
                     <span className="text-light">Welcome {user.firstName}</span>
                     )}
-
                     </div>
                 </div>
-
-
             </div>
         </nav>
     )

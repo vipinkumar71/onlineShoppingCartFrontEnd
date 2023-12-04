@@ -127,10 +127,8 @@ const Products = () => {
                 </div>
                 <ul className="list-group list-group-flush">
                   <li className="list-group-item lead">Rs. {product.price}</li>
-           
                 </ul>
                 <div className="card-body">
-               
                   <button className="btn btn-dark m-1" onClick={() => addProduct(product)}>
                     Add to Cart
                   </button>

@@ -15,15 +15,15 @@ class CartService {
     }
 
     addToCart(item){
-      return axios.post(BASE_API_URL+ "/cartitem", item ,{ headers: authHeader() });
+      return axios.post(BASE_API_URL+ "/cartItem", item ,{ headers: authHeader() });
     }
 
     decreaseItem(id){
-      return axios.get(BASE_API_URL+ "/cartitem"+`/${id}`, { headers: authHeader() });
+      return axios.get(BASE_API_URL+ "/cartItem"+`/${id}`, { headers: authHeader() });
     }
 
     deleteItem(id){
-      return axios.delete(BASE_API_URL+ "/cartitem"+`/${id}`, { headers: authHeader() });
+      return axios.delete(BASE_API_URL+ "/cartItem"+`/${id}`, { headers: authHeader() });
     }
 
     getMyCart(id) {

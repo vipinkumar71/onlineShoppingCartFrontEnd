@@ -8,8 +8,8 @@ const AboutPage = () => {
         <h1 className="text-center">About Us</h1>
         <hr />
         <p className="lead text-center">
-        E-commerce websites have become an integral part of our lives, offering convenience and accessibility. They enable us to explore and purchase products from the comfort of our homes, eliminating the need to visit physical stores. This convenience has made online shopping a preferred choice for many, providing a wide range of options and hassle-free shopping experiences.
-        Urbankart is like an online store where you can buy all sorts of things easily. We have lots of different products for you to choose from, like clothes and gadgets. You can trust that our website is safe to use, and we'll make sure your purchases get to you quickly. If you ever need help, our friendly customer support team is here for you. Whether you're a regular online shopper or trying it out for the first time, our website makes shopping online simple and enjoyable. Come visit us and discover a better way to shop online!
+        Shopping Cart websites have become an integral part of our lives, offering convenience and accessibility. They enable us to explore and purchase products from the comfort of our homes, eliminating the need to visit physical stores. This convenience has made online shopping a preferred choice for many, providing a wide range of options and hassle-free shopping experiences.
+        Shopping Cart is like an online store where you can buy all sorts of things easily. We have lots of different products for you to choose from, like clothes and gadgets. You can trust that our website is safe to use, and we'll make sure your purchases get to you quickly. If you ever need help, our friendly customer support team is here for you. Whether you're a regular online shopper or trying it out for the first time, our website makes shopping online simple and enjoyable. Come visit us and discover a better way to shop online!
         </p>
 
         <h2 className="text-center py-4">Our Products</h2>

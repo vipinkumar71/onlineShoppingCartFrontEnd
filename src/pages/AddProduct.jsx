@@ -46,9 +46,6 @@ const AddCategory = () => {
         setImage(event.target.files[0])
         console.log(image);
     }
-
-
-
     return (
         <>
 

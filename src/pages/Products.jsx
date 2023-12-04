@@ -4,7 +4,6 @@ import { Footer, Product } from "../components"
 const Products = () => {
   return (
     <>
-     
       <Product />
       <Footer />
     </>

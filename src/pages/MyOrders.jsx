@@ -92,10 +92,6 @@ const MyOrders = () => {
         </Modal>
       </div>
 
-
-
-
-
      </div>
       <table class="table">
         <thead class="thead-dark">

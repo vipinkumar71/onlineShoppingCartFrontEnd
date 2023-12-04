@@ -126,7 +126,7 @@ const Cart = () => {
 
   const ShowCart = () => {
     let subtotal = 0;
-    let shipping = 200;
+    let shipping = 100;
     let totalItems = 0;
     return (
       <>
@@ -203,7 +203,7 @@ const Cart = () => {
                       {
                         cart.cartItems.map((item,index)=>{
                           return(<li className="list-group-item d-flex justify-content-between align-items-center border-0 px-0 pb-0">
-                            {index+1})  {item.productId.name} x {item.quantity}  <span>Rs {item.totalPrice}</span>
+                            {index+1}  {item.productId.name} x {item.quantity}  <span>Rs {item.totalPrice}</span>
                           </li>)
                         })
                       }
