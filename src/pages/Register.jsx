@@ -10,7 +10,6 @@ import { faUserCircle } from '@fortawesome/free-solid-svg-icons';
 import authenticationService from '../services/authentication.service';
 import {toast} from 'react-toastify';
 import './Registerpage.css';
-import { faUser } from '@fortawesome/free-solid-svg-icons';
 
 const Register = () => {
     const [user,setUser]=useState(new User('','','','','','',''));
@@ -48,7 +47,6 @@ const Register = () => {
       navigate('/login');
   }).catch(error => {
     toast.success(`${error.response.data}` ,{autoClose: 1500});
-     console.log(error.response.data);
      if (error?.response?.status === 409) {
          setErrorMessage('Email already exists!!!');
      } else {
